@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+
+<html lang = "es">
+
+	<head>
+
+		<meta charset = "utf-8">
+
+		<title>Idiomas</title>
+		
+		<link rel = "iCon" href = "../Icons/favicon.ico" type = "Image/jpg" sizes = "64x64">
+		
+		<meta name = "viewport" content = "user-scalable = no, width = device-width, initial-scale = 1">
+		
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Estilos.css">
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Styles-idiomas.css">
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Anitexto.css">
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Calendario.css">
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Styles-Carrusel.css">
+		
+		<script type = "text/javascript" src = "../Js/mensaje.js"></script>
+		
+	</head>
+
+	<body>
+
+		<header>
+		
+			<img src = "../Images/Logos/Merale1.png" width = "125px" height = "125px" alt = "Logotipo de la empresa">
+			<h1>Academia Merale</h1>
+			
+			<nav class = "Contenedor">
+		
+				<ul class = "Enlaces"> 
+					<li><a href = "../Index.html">Inicio</a></li>
+					<li><a href = "Quienes somos.html">Quienes somos</a>
+					<li><a href = "Servicios.html">Servicios</a></li>
+					<li><a href = "Idiomas.html">Idiomas</a></li>
+					<li><a href = "Contacto.html">Contacto</a></li>					
+				</ul>
+		
+			</nav>
+		
+		</header>
+		
+		<main>
+			
+			<h1 id = "mensaje"></h1>
+			
+			<div class = "slide">
+				<div class = "slide-inner">
+					<input class = "slide-open" type = "radio" id = "slide-1" 
+						  name = "slide" aria-hidden = "true" hidden = "" checked = "checked">
+					<div class = "slide-item">
+						<img src = "../Images/Imagenesusadas/Das Deutsch.png">
+					</div>
+					<input class = "slide-open" type = "radio" id = "slide-2" 
+						  name = "slide" aria-hidden = "true" hidden = "">
+					<div class = "slide-item">
+						<img src = "../Images/Imagenesusadas/Speak.jpg">
+					</div>
+					<input class = "slide-open" type = "radio" id = "slide-3" 
+						  name = "slide" aria-hidden = "true" hidden = "">
+					<div class = "slide-item">
+						<img src = "../Images/Imagenesusadas/Parle Vous.png">
+					</div>
+					<label for = "slide-3" class = "slide-control prev control-1">‹</label>
+					<label for = "slide-2" class = "slide-control next control-1">›</label>
+					<label for = "slide-1" class = "slide-control prev control-2">‹</label>
+					<label for = "slide-3" class = "slide-control next control-2">›</label>
+					<label for = "slide-2" class = "slide-control prev control-3">‹</label>
+					<label for = "slide-1" class = "slide-control next control-3">›</label>
+					<ol class = "slide-indicador">
+						<li>
+							<label for = "slide-1" class = "slide-circulo">•</label>
+						</li>
+						<li>
+							<label for = "slide-2" class = "slide-circulo">•</label>
+						</li>
+						<li>
+							<label for = "slide-3" class = "slide-circulo">•</label>
+						</li>
+					</ol>
+				</div>
+			</div>
+			
+			<p id = "NC">Nuestros cursos</p>
+			
+			<table>
+				<tr>
+					<td>
+						<img src = "../Images/Imagenesusadas/Idiomas.jpg" id = "Globo" width = "205px" height = "125px" alt = "Imagen con las banderas de Francia, Alemania e Inglaterra">
+					</td>
+					<td>
+						<br><p class = "Texto">Disponemos de una amplia gama de metodos de aprandizaje, todos ellos impartidos por profesores nativos. Además de gran variedad de horarios disponibles, contamos con cursos para trabajadores y desempleados. Disponemos de clases intensivas los sábados por la mañana de 3 horas de duración cada una.</p>
+						<p class = "Texto">Preparamos para el examen de cada nivel por las universidades de Oxford y cambridge. También preparamos para los examenes oficiales de nivel de Ghoete y de Del Dalf. En fechas previas a los examenes de prueba de nivel, realizamos el seguimiento y apoyo que el alumno necesite para poder sacar adelante el examen y avanzar en el idima que esté cursando. Alto porcentaje de alumnos aprobados.</p>
+						<p class = "Texto" id = "Calen">Dada la gran demanda que tienen determinados idiomas y sobre todo en determinados niveles, recomendamos inscribirse lo antes posible en el curso de vuestro interes. No dudes en ponerte en contacto con nosotros para poder inscribirte en dicho curso lo antes posible para no perder tu plaza. Te esperamos</p>
+					</td>
+					<td>
+						<p class = "rotate"><span>¡Apuntate!</span> No dejes pasar esta oportunidad.</p>
+					</td>
+				</tr>
+			</table>
+			
+			<table id = "Diplo">
+				<tr>
+					<td>
+						<img src = "../Images/Imagenesusadas/Diploma.jpg" id = "Diploma" width = "205px" height = "125px" alt = "Imagen de un diploma">
+					</td>
+					<td id = "TexDi">
+						Entregamos diploma acreditativo al finalizar cada curso. Obten el tuyo después de cada curso de nivel
+					</td>
+				</tr>
+			</table>
+			
+			<p class = "Texto" id = "Sellos">Sellos de certificación</p>
+			
+			<div id = "Certificados">
+			
+				<img src = "../Images/Imagenesusadas/Ghoethe Institut.png" width = "150px" height = "75px" alt = "Logo del Ghoethe Institut">
+				<img src = "../Images/Imagenesusadas/Oxford.jpg" width = "150px" height = "75px" alt = "Logo de la Universidad de Oxforf">
+				<img src = "../Images/Imagenesusadas/Cambridge.png" width = "150px" height = "75px" alt = "Logo de la Universidad de Cambridge">
+				<img src = "../Images/Imagenesusadas/Delf Dalf.jpg" width = "150px" height = "100px" alt = "Logo de la comisión de Deñf Dalf">
+		
+			</div>			
+					
+		</main>
+		
+		<script>
+			// Nada más cargar el contenido de la página mostramos el mensaje inicial
+			mostrarMensaje();
+
+			// Después de cargar el contenido de la página, podemos iniciar el cronómetro con un setInterval
+			setInterval(cambiar, 3000);
+		</script>
+		
+		<footer>
+		
+			<div Id = "copy";>
+				
+				<img src = "../Images/Redes Sociales/Redes Sociales2.jpg" width = "125px" height = "75px" alt = "Imagen con los iconos de Redes Sociales">
+				<p>© 2023 Creado por Academia Merale. All rights reserved</p>
+				<p>El contenido de las páginas de esta plataforma web sólo es informativo. Puede estar sujeto a cambios sin previo aviso</p>
+				<p><a href = "../Policies/Política de Privacidad/Política de Privacidad.pdf" id = "Privacidad">Política de privacidad</a><a href = "../Policies/Política de Cookies/Política de Cookies.pdf" id = "Cookies">Política de cookies</a></p>
+					
+			</div>
+		
+		</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+
+<html lang = "es">
+
+	<head>
+	
+		<meta charset = "utf-8">
+		
+		<title>Calendario</title>
+		
+		<link rel = "iCon" href = "../Icons/favicon.ico" type = "Image/jpg" sizes = "64x64">
+		
+		<meta name = "viewport" content = "user-scalable = no, width = device-width, initial-scale = 1, viewport-fit = cover">
+		
+		<link rel = "stylesheet" type = "text/css" href = "calendario.css" media = "all"/>
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Estilos.css">
+		<link rel = "stylesheet" type = "text/css" href = "../Styles/Calendario.css">
+		
+		<script type = "text/javascript" src = "../Js/calendario.js"></script>
+	
+	</head>
+	
+	<body>
+	
+		<header>
+	
+		<img src = "../Images/Logos/Merale1.png" width = "125px" height = "125px" alt = "Logotipo de la empresa">
+		<h1>Academia de idiomas Merale</h1>
+		
+		<nav>
+			<ul>
+				<li><a href = "../Index.html">Inicio</a></li>
+				<li><a href = "Quienes somos.html">Quienes somos</a>
+				<li><a href = "Servicios.html">Servicios</a></li>
+				<li><a href = "Idiomas.html">Idiomas</a></li>
+				<li><a href = "Contacto.html">Contacto</a></li>
+					
+			</ul>
+		</nav>
+	
+	</header>
+		
+	<main>
+		
+			<div id = "calendario">
+			
+				<div id = "anterior" onclick = "mesantes()"></div>
+				<div id = "posterior" onclick = "mesdespues()"></div>
+				
+				<h2 id = "titulos"></h2>
+				<table id="diasc">
+					<tr id = "fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+					<tr id = "fila1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr id = "fila2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr id = "fila3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr id = "fila4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr id = "fila5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr id = "fila6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				</table>
+				
+				<div id = "fechaactual"><i onclick = "actualizar()">HOY: </i></div>
+				<div id = "buscafecha">
+				
+					<form action = "#" name = "buscar">
+					
+						<p>Buscar ... MES
+							<select name = "buscames">
+							  <option value = "0">Enero</option>
+							  <option value = "1">Febrero</option>
+							  <option value = "2">Marzo</option>
+							  <option value = "3">Abril</option>
+							  <option value = "4">Mayo</option>
+							  <option value = "5">Junio</option>
+							  <option value = "6">Julio</option>
+							  <option value = "7">Agosto</option>
+							  <option value = "8">Septiembre</option>
+							  <option value = "9">Octubre</option>
+							  <option value = "10">Noviembre</option>
+							  <option value = "11">Diciembre</option>
+							</select>
+						... AÑO ...
+							<input type = "text" name = "buscaanno" maxlength = "4" size = "4"/>
+						... 
+							<input type = "button" value = "BUSCAR" onclick = "mifecha()" />
+						</p>
+						
+					</form>
+					
+				</div>
+				
+			</div>
+			
+		</main>
+		
+		<footer>
+	
+			<div Id = "copy";>
+				
+				<img src = "../Images/Redes Sociales/Redes Sociales2.jpg" width = "125px" height = "75px" alt = "Imagen con los iconos de Redes Sociales">
+				<p>© 2023 Creado por Academia Merale. All rights reserved</p>
+				<p>El contenido de las páginas de esta plataforma web sólo es informativo. Puede estar sujeto a cambios sin previo aviso</p>
+				<p><a href = "../Policies/Política de Privacidad/Política de Privacidad.pdf" id = "Privacidad">Política de privacidad</a><a href = "../Policies/Política de Cookies/Política de Cookies.pdf" id = "Cookies">Política de cookies</a></p>
+					
+			</div>
+		
+		</footer>
+		
+	</body>
+	
+</html>

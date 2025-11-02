@@ -1,0 +1,68 @@
+
+.rotate {
+	width: 250px;
+	transform: translate(10px, 10px) rotate(-20deg);
+	margin-top: 3%;
+	padding-left: 50px;
+}
+
+.rotate1 {
+	width: 350px;
+	transform: translate(40px, 40px) rotate(15deg);
+	padding-bottom: 30px;
+	margin-top: 0px;
+	padding-left: 15px;
+}
+
+.rotate2 {
+	width: 450px;
+	transform: translate(40px, 40px) rotate(-15deg);
+	padding-bottom: 30px;
+	margin-top: 0px;
+	padding-left: 15px;
+}
+
+.rotate3 {
+	width: 350px;
+	transform: translate(30px, 30px) rotate(-15deg);
+	padding-bottom: 30px;
+	margin-top: 25px;
+	padding-left: 95px;
+}
+
+#Video {
+	margin-left: 75px;
+}
+
+table {
+	clear: both;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 7%;
+	margin-bottom: 15px;
+}
+
+#copy {
+	text-align: center;
+	padding-left: 250px;
+	display: inline;
+}
+
+#copy p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+footer {
+	clear:both;
+	margin-top: 760px;
+}
+
+#Cookies {
+	padding-left: 30px;
+}

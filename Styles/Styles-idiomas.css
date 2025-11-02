@@ -1,0 +1,102 @@
+
+h1 #mensaje {
+	margin-top: 2%;
+	color: black;
+	margin-left: 1%;
+}
+
+#mensaje {
+	color: black;
+}
+
+.Texto {
+	clear: both;
+	margin-top: 1%;
+	margin-left:25px;
+	margin-right:25px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.rotate {
+	width: 350px;
+	background-color: #A2D9CE;
+	transform: translate(50px, 60px) rotate(15deg);
+	float: right;
+	margin-right: 15%;
+	font-size: 16px;
+}
+
+.rotate span{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#Certificados {
+	clear: both;
+	float: left;
+	margin-left: 25%;
+	margin-bottom: 2%;
+}
+
+#Diplo {
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+img #Diploma {
+	padding-left: 20%,
+}
+
+#TexDi {
+	font-size: 18px;
+}
+
+main #NC {
+	padding-top: 3%;
+	padding-left: 42%;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#Calendario {
+	clear: both;
+	margin-left: 44%;
+	font-size: 26px;
+}
+
+#Calen {
+	padding-bottom: 1%;
+}
+
+#Sellos {
+	padding-left: 38%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#Globo {
+	margin-top: 25px;
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+footer {
+	clear: both;
+	margin-top: 350px;
+	bottom: 0;
+}
+	
+}#copy {
+	text-align: center;
+	padding: 5px;
+	padding-left: 250px;
+	display: inline;
+}
+
+#copy p {
+	padding-top: 15px;
+	font-size: 14px;
+}

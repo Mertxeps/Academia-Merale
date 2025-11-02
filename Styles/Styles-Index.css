@@ -1,0 +1,25 @@
+
+#Portada {
+	clear: both;
+	margin: 0px;
+	padding:0px;
+	padding-top: 5px;
+}
+
+footer {
+	clear: both;
+	margin-top: 282px;
+}
+	
+}#copy {
+	text-align: center;
+	padding: 5px;
+	padding-left: 250px;
+	display: inline;
+}
+
+#copy p {
+	margin-top: 0px;
+	padding-top: 15px;
+	font-size: 14px;
+}

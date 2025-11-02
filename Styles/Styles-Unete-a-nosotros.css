@@ -1,0 +1,87 @@
+	
+footer {
+	clear: both;
+	margin-top: 780px;
+}
+	
+}#copy {
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	padding-left: 250px;
+	padding-top: 600px;
+	display: inline;
+}
+
+#copy p {
+	margin-top: 0px;
+	padding-top: 15px;
+	font-size: 14px;
+}
+
+#Video {
+	margin-left: 37%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+main form {
+	clear: both;
+	margin-top: 45px;
+	margin-left: 28%;
+	font-size: 18px;
+}
+
+main table {
+	clear:both;
+	margin-top: 3%;
+	padding-left: 15%;
+}
+
+main table p {
+	font-size: 18px;
+	padding-right: 15%;
+	text-align: justify;
+}
+
+main table p span {
+	font-weight: bold;
+}
+
+form {
+	clear:both;
+	background-color: #E4E5E7;
+	width: 525px;
+	margin-top: 15%;
+	margin-left: 10%;
+}
+
+legend {
+	clear: both;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+form label {
+	display: inline-block;
+	width: 150px;
+	margin-left: 10px;
+}
+
+form p label {
+	width: 45px;
+	margin-left: 5px;
+}
+
+#Enviar {
+	font-size: 14px;
+	color: blue;
+	margin-left: 40%;
+}
+
+#Borrar {
+	margin-left: 15px;
+	font-size: 14px;
+	color: blue;
+}

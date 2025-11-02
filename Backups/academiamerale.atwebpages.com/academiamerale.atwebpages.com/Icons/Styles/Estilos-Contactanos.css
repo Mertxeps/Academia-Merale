@@ -1,0 +1,113 @@
+	
+h2:not(.Contenedor) {
+	text-align: center;
+}
+
+.Peticion  {
+	margin-left: 36%;
+	padding: 15px;
+	width: 100px;
+	height: 125px;
+	position: relative;
+}
+	
+#Contenedor {
+	margin: auto;
+	width: 	350px;
+	height: 230px;
+	border: 1px solid black;
+	background: #E1E2DB;
+}
+	
+.Contenedor img {
+	padding-top: 15px;
+}
+	
+.Negrita {
+	font-weight: bold;
+}
+	
+.Alineado {
+	float: center;
+	padding-left: 25px;
+}
+	
+#Contactanos {
+	float: left;
+}
+
+#Contactanos h2 {
+	margin-top: 5px;
+	margin-left: 10%;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#Contactanos a {
+	float: left;
+	margin-left: 20%;
+}
+	
+label {
+	clear: both;
+	font-family: calibri;
+	font-size: 18px;
+	text-align: left;
+	color: black;
+	padding-left: 15px;
+	display: inline-block;
+	width: 700px;
+}
+	
+#Contactanos label {
+	display: block;
+	margin: 5px 0 0 5px;
+}
+	
+#Contacto {
+	text-align:justify;
+	font-size: 18px;
+	font-family:calibri;
+	margin-top: 3%;;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#Inscribete {
+	margin-top: 1%;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	font-family:calibri;
+}
+
+p span {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#Informacion {
+	clear: both;
+	margin-top: 1%;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	font-family:calibri;
+	text-align:justify;
+}
+
+#Rd {
+	clear: both;
+	margin-top: 8%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	font-size: 18px;
+	font-family:calibri;
+	text-align:justify;
+}
+
+footer {
+	clear: both;
+	margin-top: 400px;
+}

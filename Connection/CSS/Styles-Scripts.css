@@ -1,0 +1,40 @@
+table, tr, th, td {
+	border: 2px solid blue;
+}
+
+.table {
+	display: table;
+}
+
+.tr {
+	display: table-row;
+}
+
+.th {
+	display: table-cell;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+}
+
+.td {
+	display: table-cell;
+	text-align: center;
+	font-size: 16px;
+}
+
+.table, .tr, .th, .td {
+	border: 2px solid blue;
+}
+
+h1 {
+	margin-left: 40%;
+}
+
+span {
+	font-weight: none;
+}
+
+#Sentimos span {
+	font-weight: bold;
+}
